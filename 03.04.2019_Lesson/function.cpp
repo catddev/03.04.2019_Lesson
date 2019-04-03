@@ -89,5 +89,3 @@ bool Person::by_gender(const char * str)
 	else
 		return false;
 }
-
-

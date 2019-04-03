@@ -52,7 +52,7 @@ int main() {
 			in_file >> y;
 			tmp.setYear(y);
 
-			in_file.ignore();// !!
+			in_file.ignore();// !!!
 
 			add(ps, tmp);
 		}
