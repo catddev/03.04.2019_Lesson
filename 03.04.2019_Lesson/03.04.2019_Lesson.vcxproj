@@ -119,10 +119,10 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="function.h" />
+    <Text Include="in.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="in.txt" />
+    <ClInclude Include="function.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
