@@ -63,6 +63,7 @@ int main() {
 			cout << " Enter 1 to print by year of birth" << endl;
 			cout << " Enter 2 to print by degree" << endl;
 			cout << " Enter 3 to print males only" << endl;
+			cout << " Enter 4 to print all" << endl;
 			cout << " Enter 0 exit" << endl;
 			cin >> choice;
 			switch (choice)
@@ -88,6 +89,11 @@ int main() {
 			case 3:
 				for (int i = 0; i < cur_size; i++)
 					if (ps[i].by_gender(str))
+						ps[i].print();
+				cout << endl;
+				break;
+			case 4:
+				for (int i = 0; i < cur_size; i++)
 						ps[i].print();
 				cout << endl;
 				break;
