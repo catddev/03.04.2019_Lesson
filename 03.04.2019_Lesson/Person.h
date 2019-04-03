@@ -1,12 +1,11 @@
 ﻿#pragma once
 #include<iostream>
 #include <iomanip>
-#pragma once
 #include<Windows.h>
 #include<ctime>
 #include<cstring>
 #include<fstream>
-#include"Vector.h"
+// НЕЛЬЗЯ В ЗАГОЛОВОЧНЫХ ФАЙЛАХ ПРОСТО ТАК ПЕРЕПОДКЮЧАТЬ ДРУГИЕ ЗАГОЛОВКИ - там заморочки с pragma
 using namespace std;
 
 
